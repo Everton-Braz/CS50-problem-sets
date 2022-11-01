@@ -1,9 +1,9 @@
-from cs50 import get_float
+# from cs50 import get_float
 
 def main():
 
  while True:
-    troco = get_float("Digite o troco: ")
+    troco = float(input("Digite o troco: "))
     if troco > 0:
         break
     return troco
